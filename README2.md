@@ -12,7 +12,7 @@
        5. Transaction ID
        6. Message
        7. Contextual data
-    2. Logging patterns
+    2. Logging patterns examples
         1. Standard logging pattern examples
         2. Anti logging pattern examples
         3. Logging pattern for API calls
@@ -167,6 +167,7 @@ Message: The main content of a log entry that describes the event or action, usu
 ### 5.1.7 Contextual data
 Contextual Data: Additional information that accompanies the message to provide context and help in understanding the event. It includes details like user ID, request parameters, file name, or transaction amount. For example, for a "User logged in with ID" message, the contextual data could be the user's ID and login timestamp. Such as,  "User logged in with ID 123", "File 'report.pdf' not found", or "Payment of $50 processed successfully for user 456".
 
+## 5.2 Logging patterns example
 ### 5.2.1 Standard logging pattern examples
 Aspect | Sample Pattern | Summary Description
 -------|---------------|-------------------
