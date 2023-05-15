@@ -13,8 +13,8 @@
        6. Message
        7. Contextual data
     2. Logging patterns examples
-        1. Standard logging pattern examples
-        2. Anti logging pattern examples
+        1. Standard logging patterns
+        2. Anti logging patterns
         3. Logging pattern for API calls
     3. Retention Period
     4. Rotation Strategy
@@ -168,7 +168,7 @@ Message: The main content of a log entry that describes the event or action, usu
 Contextual Data: Additional information that accompanies the message to provide context and help in understanding the event. It includes details like user ID, request parameters, file name, or transaction amount. For example, for a "User logged in with ID" message, the contextual data could be the user's ID and login timestamp. Such as,  "User logged in with ID 123", "File 'report.pdf' not found", or "Payment of $50 processed successfully for user 456".
 
 ## 5.2 Logging patterns example
-### 5.2.1 Standard logging pattern examples
+### 5.2.1 Standard logging patterns
 Aspect | Sample Pattern | Summary Description
 -------|---------------|-------------------
 API Request | `{"timestamp": "2023-05-08T15:45:30.123Z", "level": "INFO", "transactionId": "c1a89a5b-2075-4e72-a9a1-0e6cddbf0a21", "message": "GET /api/v1/users", "ipAddress": "195.168.1.100"}` | API GET request with transaction ID and IP address
@@ -186,7 +186,7 @@ Scheduled Task | `{"timestamp": "2023-05-08T15:45:32.678Z", "level": "INFO", "tr
 Task Completion | `{"timestamp": "2023-05-08T15:45:32.789Z", "level": "INFO", "transactionId": "c1a89a5b-2075-4e72-a9a1-0e6cddbf0a21", "message": "Task completed", "taskName": "daily_cleanup", "duration": 3000, "result": "success"}` | Task completion event with task name, duration, and result
 
 
-### 5.2.2 Anti logging pattern examples
+### 5.2.2 Anti logging patterns
 Avoid logging personal data, implicit secrets, and unstructured data, as these anti-patterns can lead to privacy violations, exposed sensitive information, and difficult log analysis.
 
 Aspect | Sample Anti-Pattern | Summary Description
