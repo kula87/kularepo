@@ -1,4 +1,4 @@
-Logging Strategy Guidelines
+# Logging Strategy Guidelines
 1. Introduction
 2. What is Log Pattern?
 3. Importance of Log Pattern
