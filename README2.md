@@ -68,7 +68,7 @@ Log patterns are essential for efficient debugging, ensuring regulatory complian
 - **Metric Logs**: These logs keep track of the quantitative data about a system, like system performance or resource usage.
 
 ## 5. Best Practices
-Log levels are crucial for categorizing log messages by severity and importance, aiding developers and support teams in filtering and analyzing logs more efficiently.
+"Best Practices" in the logging strategy guidelines outlines the recommended logging structure, illustrates logging pattern examples, and explains essential aspects such as retention period, rotation strategy, and backup/archiving policies.
 
 ## 5.1. Logging Pattern and Structure
    Standardize the log message format, which should include, but not be limited to:
