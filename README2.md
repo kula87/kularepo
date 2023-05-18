@@ -162,6 +162,7 @@ Include ID in logs | Include the transaction ID in each log entry related to the
 Use standard format | Use a consistent format for transaction IDs across all applications and systems | Facilitates log correlation and analysis, regardless of the application or system generating the logs | Stick to a standardized format like UUID or GUID | - | Consistent ID format
 Log analysis | Use log analysis tools that support transaction ID-based filtering and correlation | Simplifies the process of tracing logs related to a single request or operation | Configure Splunk or Kibana to recognize and filter logs based on the transaction ID | - | Log filtering by transaction ID
 
+UUID: Universally Unique Identifier (Globally unique identifier (GUID). It is a 128-bit number. Ex: 123e4567-e89b-12d3-a456-426614174000.
 ### 5.1.6 Message
 Message: The main content of a log entry that describes the event or action, usually in a clear and concise manner. For example, "User logged in" or "File upload failed."
 
