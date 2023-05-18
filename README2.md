@@ -91,9 +91,10 @@ Table summarizing the lowercase/uppercase conventions for various aspects of log
 |------------------|------------------|-------------------------------------------|
 | Log Levels       | Uppercase        | "INFO", "DEBUG", "WARN", "ERROR", "FATAL" |
 | JSON Keys        | camelCase/snake_case | "responseTimeMs", "response_time_ms"     |
-| Component Names  | PascalCase/camelCase/snake_case | "Auth", "apiRequest", "api_request"    |
+| Component Names  | PascalCase/camelCase/snake_case | "DatabaseManager", "apiRequest", "user_service"    |
 | Log Messages     | Sentence case    | "User successfully logged in"             |
 
+In this case, "DatabaseManager" is a class or component name in PascalCase, "apiRequest" is a function or method name in camelCase, and "user_service" is a component name in snake_case. Note that different languages and codebases might have different conventions. 
 
 ### 5.1.1 Timestamp (ISO 8601 format)
 The timestamp format in the provided examples is in ISO 8601 format, which is a widely used international standard for date and time representations. The format is as follows:
